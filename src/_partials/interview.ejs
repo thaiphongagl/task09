@@ -1,0 +1,31 @@
+<section class="c-intaview" id="#intaview">
+    <h2 class="c-title34 c-intaview__heading">先輩社員からのメッセージ</h2>
+    <p class="c-title16 c-intaview__subheading">
+        未経験で入社した多くのメンバーが<br class="is-sp">活躍しています。<br>
+        各部門で活躍する現役メンバーたちの<br class="is-sp">「リアルな声」をお届けします。
+    </p>
+
+    <div class="c-intaview__cards">
+        <% if (typeof intaviews !='undefined' ) { %>
+            <% intaviews.forEach(intaview=> { %>
+                <div class="c-intaview__card">
+                    <div class="c-intaview__spcard">
+                        <div class="c-intaview__cardimage">
+                            <picture>
+                                <source srcset="" media="(max-width: 767px)">
+                                <img src="<%=intaview.interviewImg%>" alt="<%=intaview.interviewName%>">
+                            </picture>
+                            <div class="c-intaview__zoom">
+                                <img class="c-intaview__zoomin" src="./assets/img/zoom_in.svg" alt="<%=intaview.interviewName %>">
+                                <span class="c-intaview__zoomtitle">INTERVIEW</span>
+                            </div>
+                        </div>
+                        <p class="c-intaview__message">
+                            <%=intaview.interviewMsg%>
+                        </p>
+                    </div>
+                </div>
+                <% }) %>
+                    <% } %>
+    </div>
+</section>

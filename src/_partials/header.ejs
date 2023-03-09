@@ -1,0 +1,37 @@
+<header class="c-header">
+  <div class="c-header__container">
+    <div class="c-header__logo">
+      <a href="./index.html" class="c-header__logowrapper">
+        <picture>
+          <source media="(max-width: 767px)" srcset="./assets/img/logotop-sp.png">
+          <img src="./assets/img/logotop.png" alt="Logo">
+        </picture>
+        <span class="c-header__logotitle">Recruitment 2020</span>
+      </a>
+    </div>
+
+    <nav class="c-header__gnav">
+      <ul class="c-header__gnavlist">
+        <% if (typeof linklists !='undefined' ) { %>
+          <% linklists.main && linklists.main.forEach(link=> { %>
+            <li <% if(link.class) {%> 
+              class="c-header__gnavitem <%= link.class %>"
+            <% } %>
+            >
+                  <a class="c-header__gnavlink" href="<%= link.url %>">
+                    <%= link.title %>
+                  </a>
+            </li>
+            <% }) %>
+              <% } %>
+      </ul>
+    </nav>
+
+    <div class="c-header__spnav">
+      <a href="#" class="c-header__assignment">
+        <img class="c-header__assignmentimg" src="./assets/img/assignment.svg" alt="募集要項">
+        <span class="c-header__assignmenttext">募集要項</span>
+      </a>
+    </div>
+  </div>
+</header>

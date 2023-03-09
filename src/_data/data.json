@@ -1,0 +1,247 @@
+{
+  "linklists": {
+    "main": [
+      {
+        "title": "私たちについて",
+        "url": "#about",
+        "class": "c-header__firstitem"
+      },
+      {
+        "title": "私たちの仕事",
+        "url": "#works",
+        "class": "c-header__seconditem"
+      },
+      {
+        "title": "キャリアプラン",
+        "url": "#career",
+        "class": "c-header__thirditem"
+      },
+      {
+        "title": "社員インタビュー",
+        "url": "#intaview",
+        "class": "c-header__fourthitem"
+      },
+      {
+        "title": "会社情報",
+        "url": "#company",
+        "class": "c-header__fifthitem"
+      }
+    ]
+  },
+  "abouts": [
+    {
+      "aboutId": 1,
+      "aboutImg": "./assets/img/about1.jpg",
+      "aboutImgTab": "./assets/img/about1-tab.jpg",
+      "aboutImgSp": "./assets/img/about1-sp.jpg"
+    },
+    {
+      "aboutId": 2,
+      "aboutImg": "./assets/img/about2.jpg",
+      "aboutImgTab": "./assets/img/about2-tab.jpg",
+      "aboutImgSp": "./assets/img/about2-sp.jpg"
+    }
+  ],
+  "works": {
+    "intros": [
+      {
+        "introImg": "./assets/img/intro1.jpg",
+        "introSp": "./assets/img/intro1-sp.jpg"
+      },
+      {
+        "introImg": "./assets/img/intro2.jpg",
+        "introSp": "./assets/img/intro2-sp.jpg"
+      },
+      {
+        "introImg": "./assets/img/intro3.jpg",
+        "introSp": "./assets/img/intro3-sp.jpg"
+      },
+      {
+        "introImg": "./assets/img/intro4.jpg",
+        "introSp": "./assets/img/intro4-sp.jpg"
+      }
+    ],
+    "lists": [
+      {
+        "listId": 1,
+        "listText": "重機の運転、土木作業の手元"
+      },
+      {
+        "listId": 2,
+        "listText": "ブロック積み、フェンス、カーポート、門扉、照明、ポ<br class='is-pc'>スト、表札と言われる金物商品の取付工事"
+      },
+      {
+        "listId": 3,
+        "listText": "左官作業と言われるコンクリートを扱う工事作業"
+      },
+      {
+        "listId": 4,
+        "listText": "電気工事（照明、インターホンの取付）"
+      },
+      {
+        "listId": 5,
+        "listText": "設備工事（給水管、排水管の設置）"
+      },
+      {
+        "listId": 6,
+        "listText": "植栽工事（新築への植栽の植え付け作業）"
+      },
+      {
+        "listId": 7,
+        "listText": "鉄筋の組立て作業"
+      },
+      {
+        "listId": 8,
+        "listText": "型枠の設置工事"
+      }
+    ],
+    "imgs": [
+      {
+        "imgId": 1,
+        "imgSrc": "./assets/img/photo1.jpg",
+        "imgSp": "./assets/img/photo1-sp.jpg"
+      },
+      {
+        "imgId": 2,
+        "imgSrc": "./assets/img/photo2.jpg",
+        "imgSp": "./assets/img/photo2-sp.jpg"
+      },
+      {
+        "imgId": 3,
+        "imgSrc": "./assets/img/photo3.jpg",
+        "imgSp": "./assets/img/photo3-sp.jpg"
+      },
+      {
+        "imgId": 4,
+        "imgSrc": "./assets/img/photo4.jpg",
+        "imgSp": "./assets/img/photo4-sp.jpg"
+      },
+      {
+        "imgId": 5,
+        "imgSrc": "./assets/img/photo5.jpg",
+        "imgSp": "./assets/img/photo5-sp.jpg"
+      },
+      {
+        "imgId": 6,
+        "imgSrc": "./assets/img/photo6.jpg",
+        "imgSp": "./assets/img/photo6-sp.jpg"
+      },
+      {
+        "imgId": 7,
+        "imgSrc": "./assets/img/photo8.jpg",
+        "imgSp": "./assets/img/photo8-sp.jpg"
+      },
+      {
+        "imgId": 8,
+        "imgSrc": "./assets/img/photo7.jpg",
+        "imgSp": "./assets/img/photo7-sp.jpg"
+      }
+    ],
+    "modals": [
+      {
+        "modalId": 1,
+        "modalImg": "./assets/img/photomodal1.jpg",
+        "modalImgSp": "./assets/img/photomodal1-sp.jpg"
+      },
+      {
+        "modalId": 2,
+        "modalImg": "./assets/img/photomodal2.jpg",
+        "modalImgSp": "./assets/img/photomodal2-sp.jpg"
+      },
+      {
+        "modalId": 3,
+        "modalImg": "./assets/img/photomodal3.jpg",
+        "modalImgSp": "./assets/img/photomodal3-sp.jpg"
+      },
+      {
+        "modalId": 4,
+        "modalImg": "./assets/img/photomodal4.jpg",
+        "modalImgSp": "./assets/img/photomodal4-sp.jpg"
+      },
+      {
+        "modalId": 5,
+        "modalImg": "./assets/img/photomodal5.jpg",
+        "modalImgSp": "./assets/img/photomodal5-sp.jpg"
+      },
+      {
+        "modalId": 6,
+        "modalImg": "./assets/img/photomodal6.jpg",
+        "modalImgSp": "./assets/img/photomodal6-sp.jpg"
+      },
+      {
+        "modalId": 7,
+        "modalImg": "./assets/img/photomodal7.jpg",
+        "modalImgSp": "./assets/img/photomodal7-sp.jpg"
+      },
+      {
+        "modalId": 8,
+        "modalImg": "./assets/img/photomodal8.jpg",
+        "modalImgSp": "./assets/img/photomodal8-sp.jpg"
+      }
+    ]
+  },
+  "careers": {
+    "plans": [
+      {
+        "planId": 1,
+        "planTime": "入社1年目",
+        "planContent": "たくさんの現場を経験し、いろんな先輩<br class='is-sp'>社員と接することで、まずは一通り<br class='is-pc'>の作<br class='is-sp'>業内容と現場作業の流れを把握します。"
+      },
+      {
+        "planId": 2,
+        "planTime": "入社3年目",
+        "planContent": "1人で現場での作業を徐々に行います。"
+      },
+      {
+        "planId": 3,
+        "planTime": "入社5年目",
+        "planContent": "職長（現場での管理が出来る人）昇格に<br class='is-sp'>向けて必要な研修や資格を取得して<br class='is-pc'>もら<br class='is-sp'>います。職長になると、現場でお客様と<br class='is-sp'>の打合せや材料の注文、品質管<br class='is-pc'>理、工事<br class='is-sp'>写真管理、原価管理といった管理業務も<br class='is-sp'>担います。"
+      },
+      {
+        "planId": 4,
+        "planTime": "入社10年目〜 独立か、管理職か。",
+        "planContent": "独立を希望する人は、<br>建築士や施工管理技術者への資格の取<br class='is-sp'>得、独立に向けての勉強までサポート<br class='is-pc'>し<br class='is-sp'>ます。独立後はENTEXから仕事を受注することも可能です。仕入先の紹<br class='is-pc'>介なども<br class='is-sp'>行ないますので、安心して独立できます。<br> <br> <span class='c-career__timelinetextsp'>独立を望まない人は、<br>管理職となり職人の管理や他社が開催す<br class='is-sp'>る会議へ参加したり、お客様との<br class='is-pc'>工事<br class='is-sp'>打合せの作業内容確認を行います。</span>"
+      }
+    ],
+    "services": [
+      {
+        "serviceImg": "./assets/img/service1.jpg"
+      },
+      {
+        "serviceImg": "./assets/img/service2.jpg"
+      },
+      {
+        "serviceImg": "./assets/img/service3.jpg"
+      },
+      {
+        "serviceImg": "./assets/img/service4.jpg"
+      }
+    ]
+  }, 
+  "intaviews": [
+    {
+      "interviewImg": "./assets/img/interview1.jpg",
+      "interviewMsg": "いつも明るく元気に作業。朝も一番に出勤してます！",
+      "interviewName":"安川　聖 (30)",
+      "interviewNameTab": "鈴木太郎",
+      "interviewDes": "入社2年目・外構担当職人　",
+      "interviewDesTab": "入社3年目・外構担当"
+    },
+    {
+      "interviewImg": "./assets/img/interview2.jpg",
+      "interviewMsg": "職長として土木・外構工事の現場管理をしながら作業指示",
+      "interviewName":"福元　和稔 (45)",
+      "interviewNameTab": "池田純一",
+      "interviewDes": "入社3年目・土木、外構担当職長",
+      "interviewDesTab": "入社5年目・外構担当"
+    },
+    {
+      "interviewImg": "./assets/img/interview3.jpg",
+      "interviewMsg": "高校卒業後に入社し、関西で妻と出会い結婚。外構部長へ",
+      "interviewName":"工藤　智成 (41)",
+      "interviewNameTab": "鈴木太郎",
+      "interviewDes": "入社23年目・外構部長",
+      "interviewDesTab": "入社3年目・外構担当"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+.c-btn {
+    width: fit-content;
+    display: flex;
+    background: $main-color;
+    align-items: center;
+    border-radius: 9px;
+    padding: 8px 28px 2px;
+    cursor: pointer;
+    opacity: 1;
+    transition: 0.4s linear;
+
+    &:hover {
+        opacity: 0.7;
+        transition: 0.4s linear;
+    }
+
+    .c-btn__text {
+        font-size: 1.6rem;
+        color: $text-ff-color;
+        text-align: center;
+        font-weight: 500;
+        line-height: 1.9;
+        letter-spacing: -2px;
+        transform: translateY(-2px);
+    }
+
+    .c-btn__icon {
+        transform: translate(-6px, -3px);
+    }
+}
+

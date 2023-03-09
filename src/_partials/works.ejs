@@ -1,0 +1,94 @@
+<section class="c-works" id="works">
+    <div class="c-works__header">
+        <h2 class="c-title34 c-works__heading">私たちの仕事</h2>
+        <p class="c-title16 c-works__subheading">
+            エクステリアのプロ集団と言っても、<br class="is-sp">仕事内容はさまざまです。<br>
+            仕事をしていく上で、「あなたの興味のあること」<br class="is-sp"><span class="is-pcspan">「向いていること」が見つけられるかもしれません。</span>
+        </p>
+    </div>
+
+    <div class="c-works__intro">
+        <div class="c-works__introcontent">
+            <div class="c-works__introimgs">
+                <% if (typeof works !='undefined' ) { %>
+                    <% works.intros && works.intros.forEach(intro=> { %>
+                        <div class="c-works__introimg">
+                            <picture>
+                                <source media="(max-width: 767px)" srcset="<%= intro.introSp %>">
+                                <source media="(max-width: 1024px)" srcset="<%= intro.introTab %>">
+                                <img class="c-works__introsrc" src="<%= intro.introImg %>" alt="仕事内容の紹介">
+                            </picture>
+                        </div>
+                        <% }) %>
+                            <% } %>
+            </div>
+
+            <div class="c-works__introtext">
+                <h2 class="c-title34 c-works__introtitle">仕事内容の紹介</h2>
+                <p class="c-title16 c-works__introsubtitle">屋外での現場作業をメインに行ないます。</p>
+
+                <div class="c-works__introitems">
+                    <% if (typeof works !='undefined' ) { %>
+                        <% works.lists && works.lists.forEach(list=> { %>
+                            <div class="c-works__introitem c-works__introitem<%= list.listId %>">
+                                <span class="c-works__itemindex">
+                                    <%= list.listId %>
+                                </span>
+                                <p class="c-works__itemtext"><%- list.listText %></p>
+                            </div>
+                            <% }) %>
+                                <% } %>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="c-works__photo">
+        <h2 class="c-works__photoheading c-title34">Photos & Movie</h2>
+        <p class="c-works__photosubheading c-title16">私たちの仕事内容の一部を動画と写真でお伝えします。</p>
+
+        <div class="c-works__content">
+            <div class="c-works__movie">
+                <video class="c-works__video" autoplay loop muted src="./assets/img/entex_video01.mp4"></video>
+            </div>
+
+            <div class="c-works__imgs">
+                <% if (typeof works !='undefined' ) { %>
+                    <% works.imgs && works.imgs.forEach(img=> { %>
+                        <div class="c-works__img">
+                            <picture>
+                                <source media="(max-width: 767px)" srcset="<%= img.imgSp %>">
+                                <img class="c-works__photosrc" src="<%= img.imgSrc %>" alt="Photos & Movie">
+                            </picture>
+                            <div class="c-works__zoom">
+                                <img class="c-works__zoomin" src="./assets/img/zoom_in.svg" alt="Photos & Movie">
+                                <span class="c-works__zoomtitle">PICK UP</span>
+                            </div>
+                        </div>
+                        <% }) %>
+                            <% } %>
+            </div>
+        </div>
+    </div>
+
+    <div class="c-works__modal">
+    <% if (typeof works !='undefined' ) { %>
+        <% works.modals && works.modals.forEach(modal=> { %>
+        <div class="c-works__modalcontainer">
+            <div class="c-works__modalimg">
+                <picture>
+                    <source media="(max-width: 787px)" srcset="<%= modal.modalImgSp %>">
+                    <img class="c-works__modalimgsrc" src="<%= modal.modalImg %>" alt="Photos & Movie">
+                </picture>
+            </div>
+            <div class="c-btn c-works__modalclose">
+                <div class="c-btn__icon c-works__modalicon">
+                    <img class="c-works__modaliconsrc c-btn__iconsrc" src="./assets/img/close.svg" alt="">
+                </div>
+                <span class="c-btn__text c-works__modaltext">閉じる</span>
+            </div>
+        </div>
+        <% }) %>
+        <% } %>
+    </div>
+</section>

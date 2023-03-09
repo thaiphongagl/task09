@@ -1,0 +1,114 @@
+/* Header
+------------------------------------------------------------*/
+.c-header {
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    background-color: $text-ff-color;
+
+    .c-header__container {
+        max-width: 1200px;
+        width: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 21px;
+        position: relative;
+    }
+
+    .c-header__logo {
+        padding-bottom: 6px;
+    }
+
+    .c-header__logowrapper {
+        position: relative;
+    }
+
+    .c-header__logotitle {
+        position: absolute;
+        font-size: 1.2rem;
+        color: $text-3c-color;
+        display: inline-block;
+        left: 49px;
+        top: 32px;
+    }
+
+    .c-header__gnav {
+        max-width: 721px;
+        margin: 10px auto 0;
+        flex: 1 1 auto;
+    }
+
+    .c-header__gnavlist {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 7px;
+    }
+
+    .c-header__gnavitem {
+        display: inline-block;
+        color: $main-color;
+        cursor: pointer;
+    }
+
+    .c-header__firstitem {
+        margin-left: 50px;
+    }
+
+    .c-header__seconditem {
+        margin-left: 6px;
+    }
+
+    .c-header__thirditem {
+        margin-left: 12px;
+    }
+
+    .c-header__fourthitem {}
+
+    .c-header__fifthitem {}
+
+    .c-header__gnavlink {
+        &:hover {
+            border-bottom: 2px solid $main-color;
+            padding-bottom: 6px;
+        }
+    }
+
+    .is-active {
+        .c-header__gnavlink {
+            border-bottom: 2px solid $main-color;
+            padding-bottom: 6px;
+        }
+    }
+
+    .c-header__spnav {}
+
+    .c-header__assignment {
+        margin-top: 6px;
+        background-color: $main-color;
+        color: $text-ff-color;
+        border-radius: 9px;
+        font-size: 1.8rem;
+        font-weight: 500;
+        padding: 9px 39px 18px;
+        text-align: center;
+        margin-left: 15px;
+    }
+
+    .c-header__assignmentimg {
+        width: 20px;
+        height: 20px;
+        position: relative;
+        top: 8px;
+        left: -3px;
+    }
+
+    .c-header__assignmenttext {
+        display: inline-block;
+        letter-spacing: 2.3px;
+        transform: translate(-1px, 4px);
+    }
+}

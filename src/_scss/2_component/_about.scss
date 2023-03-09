@@ -1,0 +1,118 @@
+.c-about {
+    padding-bottom: 122px;
+    position: relative;
+
+    &::after {
+        content: "";
+        width: 76.7%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 0;
+        background-color: $main-color;
+        z-index: -1;
+        max-width: 1314px;
+    }
+
+    .c-about__title {
+        max-width: 960px;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        padding: 32px 30px 24px;
+        font-size: 2.6rem;
+        font-weight: 500;
+        background-color: #fff;
+        position: relative;
+        letter-spacing: 1.8px;
+        color: $main-color;
+        transform: translateY(-95px);
+
+        &::after {
+            content: "";
+            width: 2px;
+            height: 30px;
+            background-color: $main-color;
+            position: absolute;
+            left: 50%;
+            top: -12%;
+        }
+    }
+
+    .c-about__titlespan {
+        color: $orange-color;
+        display: inline-block;
+        transform: translate(6px, 1px);
+    }
+
+    .c-about__scroll {
+        font-size: 2rem;
+        font-weight: 500;
+        color: $main-color;
+        position: absolute;
+        left: 45.7%;
+        transition: 0.4s;
+        cursor: pointer;
+        top: -56.5%;
+        letter-spacing: 1px;
+    }
+
+    .c-about__content {
+        display: flex;
+        max-width: 1200px;
+        margin: 6px auto 0;
+    }
+
+    .c-about__text {
+        color: $text-ff-color;
+        width: 50%;
+        margin-top: 12px;
+        padding-left: 10.1%;
+        padding-right: 4%;
+    }
+
+    .c-about__heading {
+        color: $text-ff-color;
+        letter-spacing: 2.2px;
+    }
+
+    .c-about__desc {
+        margin-top: 23px;
+    }
+
+    .c-about__desccontent {
+        max-width: 414px;
+        line-height: 1.75;
+        letter-spacing: 0.3px;
+    }
+
+    .c-about__img {
+        width: 50%;
+    }
+
+    .c-about__src {
+        position: relative;
+        z-index: 1;
+        padding-right: 20px;
+
+        &::before {
+            content: "";
+            width: 89.3%;
+            display: block;
+            border: 2px solid #fff;
+            height: 356px;
+            position: absolute;
+            left: -3.3%;
+            z-index: 2;
+            top: 5.3%;
+            height: 100%;
+        }
+    }
+
+    .c-about__img1 {}
+
+    .c-about__img2 {
+        margin-top: 44px;
+    }
+}
