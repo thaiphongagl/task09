@@ -1,13 +1,17 @@
-.c-title34 {
-    font-size: 3.4rem;
+.c-title44 {
+    font-size: 4.4rem;
     color: $main-color;
     font-weight: 500;
 }
 
+.c-title34 {
+    @extend .c-title44;
+    font-size: 3.4rem;
+}
+
 .c-title28 {
-    @extend .c-title34;
+    font-weight: 500;
     font-size: 2.8rem;
-    color: unset;
 }
 
 .c-title25 {

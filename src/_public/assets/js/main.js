@@ -20,21 +20,39 @@ $(document).ready(function () {
 });
 
 $(document).ready(function () {
-  var modal = $('.c-works__modal');
-  var btn = $('.c-works__img');
-  var span = $('.c-works__modalclose');
+  const modalWork = $('.c-works__modal');
+  const btnWork = $('.c-works__img');
+  const spanWork = $('.c-works__modalclose');
 
-  btn.click(function () {
-    modal.show();
+  btnWork.click(function () {
+    modalWork.show();
   });
 
-  span.click(function () {
-    modal.hide();
+  spanWork.click(function () {
+    modalWork.hide();
   });
 
   $(window).on('click', function (e) {
     if ($(e.target).is('.c-works__modal')) {
-      modal.hide();
+      modalWork.hide();
+    }
+  });
+
+  const modalIntaview = $('.c-intaview__modal');
+  const btnIntaview = $('.c-intaview__cardimage');
+  const spanIntaview = $('.c-intaview__modalclose');
+
+  btnIntaview.click(function () {
+    modalIntaview.show();
+  });
+
+  spanIntaview.click(function () {
+    modalIntaview.hide();
+  });
+
+  $(window).on('click', function (e) {
+    if ($(e.target).is('.c-intaview__modal')) {
+      modalIntaview.hide();
     }
   });
 });

@@ -13,10 +13,12 @@
                         <div class="c-intaview__cardimage">
                             <picture>
                                 <source srcset="" media="(max-width: 767px)">
-                                <img src="<%=intaview.interviewImg%>" alt="<%=intaview.interviewName%>">
+                                <img class="c-intaview__cardimagesrc" src="<%=intaview.interviewImg%>"
+                                    alt="<%=intaview.interviewName%>">
                             </picture>
                             <div class="c-intaview__zoom">
-                                <img class="c-intaview__zoomin" src="./assets/img/zoom_in.svg" alt="<%=intaview.interviewName %>">
+                                <img class="c-intaview__zoomin" src="./assets/img/zoom_in.svg"
+                                    alt="<%=intaview.interviewName %>">
                                 <span class="c-intaview__zoomtitle">INTERVIEW</span>
                             </div>
                         </div>
@@ -24,8 +26,155 @@
                             <%=intaview.interviewMsg%>
                         </p>
                     </div>
+
+                    <div class="c-intaview__cardinfo">
+                        <div class="c-intaview__playicon">
+                            <img src="./assets/img/play.png" alt="">
+                        </div>
+
+                        <div class="c-intaview__cardtext">
+                            <h3 class="is-pcnsp c-intaview__cardname">
+                                <%=intaview.interviewName%>
+                            </h3>
+                            <h3 class="is-tab c-intaview__cardname">
+                                <%=intaview.interviewNameTab%>
+                            </h3>
+                            <p class="is-pcnsp c-intaview__cardposition">
+                                <%=intaview.interviewDes%>
+                            </p>
+                            <p class="is-tab c-intaview__cardposition">
+                                <%=intaview.interviewDesTab%>
+                            </p>
+                        </div>
+                    </div>
                 </div>
                 <% }) %>
                     <% } %>
+    </div>
+
+    <div class="c-intaview__represent">
+        <div class="c-intaview__respresentmain">
+            <h2 class="c-title34 c-intaview__representtitle">
+                代表メッセージ
+            </h2>
+            <h4 class="c-intaview__representsubtitle">
+                「学歴・経験不問。<br class="is-sp">ポテンシャル重視で採用」
+            </h4>
+
+            <div class="c-intaview__representbody">
+                <p class="c-intaview__representcontent">
+                    弊社は、｢お客様に喜ばれる仕事をしよう｣という会社理念を掲げて社会貢献事業を行<br class="is-pc">なっています。<br
+                        class="is-sp">何か仕事で困った事があってもお客様の立場や、気持ちを考えれば社<br class="is-pc">員一同、同じ方向を向いて仕事が出来ます。<br>
+                    <br>
+                    <span class="c-intaview__representsp">
+                        また、個人の目標も大切にしており弊社の全てのメンバーが夢、希望をもって仕事に<br class="is-pc">取り組み楽しい職場作りを目指しております。<br
+                            class="is-pcnsp">
+                        メンバー同士、助け合いの精神をもって規律正しく和気あいあいと作業を行なってい<br class="is-pc">ます。
+                    </span>
+                    <br>
+                    <br>
+                    <span class="c-intaview__representsp">
+                        昔のように職人は誰でもなれる職業ではありません。<br class="is-sp">身体も頭脳も健全でなければ一<br
+                            class="is-pc">流の職人にはなれませんが、ENTEXでは多くのまだ若いプロの職人が親切、丁寧に教<br class="is-pc">育しますので安心です。
+                    </span>
+                </p>
+
+                <div class="c-intaview__representimage">
+                    <picture>
+                        <source srcset="./assets/img/" media="(max-width: 767px)">
+                        <source srcset="./assets/img/" media="(max-width: 1024px)">
+                        <img class="c-intaview__representimagesrc" src="./assets/img/interview4.jpg" alt="代表メッセージ">
+                    </picture>
+                </div>
+            </div>
+
+            <div class="c-intaview__representbody2">
+                <p class="c-intaview__representadvise">
+                    自分の作品として最低でも50年は施工場所が残る仕事です。<br>
+                    大切な家族や友人に、自分が施工した自慢の作品がすぐに理解できて貰える喜びが、<br>
+                    とても嬉しくて遣り甲斐のある仕事です。
+                </p>
+                <p class="c-intaview__representsign is-pc">
+                    株式会社ENTEX　代表取締役社長　遠藤 剛
+                </p>
+                <p class="c-intaview__representsign is-tabnsp">
+                    株式会社エンテックス<br class="is-sp">代表取締役社長　遠藤 剛
+                </p>
+                <h2 class="c-title34 c-intaview__representbottitle">社名の由来</h2>
+            </div>
+        </div>
+
+        <div class="c-intaview__representfooter">
+            <div class="c-intaview__representlogo">
+                <picture>
+                    <source srcset="./assets/img/" media="(max-width: 767px)">
+                    <source srcset="./assets/img/" media="(max-width: 1024px)">
+                    <img class="c-intaview__representlogosrc" src="./assets/img/interview-logo.png" alt="社名の由来">
+                </picture>
+            </div>
+            <div class="c-intaview__representcontact">
+                <div class="c-intaview__representcontactitem">
+                    <p class="c-intaview__contactlang">EN</p>
+                    <p class="c-intaview__contacten is-pc">当社代表「遠藤(Endo)」の頭文字</p>
+                    <p class="c-intaview__contacten is-tabnsp">弊社代表「遠藤(Endo)」の頭文字</p>
+                </div>
+                <div class="c-intaview__representcontactitem c-intaview__contactitem2">
+                    <p class="c-intaview__contactlang">TE</p>
+                    <p class="c-intaview__contacten">テクノロジー(技術)</p>
+                </div>
+                <div class="c-intaview__representcontactitem">
+                    <p class="c-intaview__contactlang">X</p>
+                    <p class="c-intaview__contacten c-intaview__contacten3">無限に成長すると言う意味のX</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="c-intaview__modal is-close">
+        <div class="c-intaview__modalmain">
+            <h4 class="c-intaview__modaltitle">いつも明るく元気に作業。朝も一番に出勤してます！</h4>
+
+            <div class="c-intaview__modalcontent">
+                <div class="c-intaview__modalcard">
+                    <div class="c-intaview__modalcardimage">
+                        <picture>
+                            <source srcset="./assets/img/" media="(max-width: 767px)">
+                            <img class="c-intaview__modalcardimagesrc" src="./assets/img/interview-modal1.jpg" alt="">
+                        </picture>
+                    </div>
+                    <div class="c-intaview__modalcardname">
+                        <h4 class="c-intaview__modalname">安川　聖 (30)</h4>
+                        <p class="c-intaview__modalposition">入社2年目・外構担当職人</p>
+                    </div>
+                </div>
+
+                <div class="c-intaview__modalqa">
+                    <dl class="c-intaview__modallist">
+                        <dt class="c-intaview__modalq">Q. 仕事内容について教えてください</dt>
+                        <dd class="c-intaview__modala">
+                            外構工事を担当しています。建物を新しく建てる際やお庭のリフォームを検討されてる方をはじめ、カーポート、ウッドデッキ、ブロック塀、門扉、アプローチ&nbsp;&nbsp;&nbsp;&nbsp;シャッター、フェンス、テラスなど、大小様々な工事を行っています。
+                        </dd>
+
+                        <dt class="c-intaview__modalq">Q. 入社の決め手について教えてください</dt>
+                        <dd class="c-intaview__modala">もともとは営業や飲食業、アパレル関係の仕事をしていましたが、何か手に職をつけたいと思い、ENTEXに応募しました。</dd>
+
+                        <dt class="c-intaview__modalq">Q. 仕事でやりがいを感じるときはどんな時ですか？</dt>
+                        <dd class="c-intaview__modala">入社2年目ということもあり、作業中などはあまり余裕を感じることはありませんが、現場の着工前と完成後を見るとやりがいを感じます。<br>また、完成後に自分が携わった現場を通りかかり、そこに住むひとたちが何気ない生活を送っている姿を見るのもやりがいを感じます。私たちの仕事は、世の中に残っていく仕事です。</dd>
+
+                        <dt class="c-intaview__modalq">Q. 入社を希望される方に向けてメッセージをお願いします</dt>
+                        <dd class="c-intaview__modala">
+                            はっきり言って肉体労働では重いものを運びますし、夏は暑く、冬は寒いです。仕事自体は難しいですが、体力が無くても、不器用でも、信念をもって取り組めばこの仕事は務まると思います。そんな信念のあるひとを私たちはお待ちしています。
+                        </dd>
+                    </dl>
+                </div>
+            </div>
+
+            <div class="c-btn c-intaview__modalclose">
+                <div class="c-btn__icon c-intaview__modalicon">
+                    <img class="c-intaview__modaliconsrc c-btn__iconsrc" src="./assets/img/close.svg" alt="">
+                </div>
+                <span class="c-btn__text c-intaview__modaltext">閉じる</span>
+            </div>
+        </div>
     </div>
 </section>

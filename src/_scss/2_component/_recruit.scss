@@ -1,0 +1,224 @@
+.c-recruit {
+    max-width: 960px;
+    margin: 0 auto;
+    padding-bottom: 63px;
+
+    .c-recruit__heading {
+        text-align: center;
+        font-size: 4.4rem;
+        padding-top: 91px;
+        letter-spacing: 3.4px;
+    }
+
+    .c-recruit__subheading {
+        text-align: center;
+        letter-spacing: 0.4px;
+        line-height: 1.7;
+        margin-top: 7px;
+    }
+
+    .c-recruit__tabwrapper {}
+
+    .c-recruit__tabs {
+        display: flex;
+        margin-top: 54px;
+        align-items: flex-end;
+    }
+
+    .c-recruit__tab {
+        font-size: 2.6rem;
+        width: 50%;
+        text-align: center;
+        cursor: pointer;
+        border: 1px solid #404141;
+        padding: 31px 34px 13px 0;
+        border-collapse: collapse;
+        color: $text-3c-color;
+
+        &.is-active {
+            &:hover {
+                opacity: 1;
+            }
+        }
+
+        &:hover {
+            opacity: 0.7;
+        }
+    }
+
+    .c-recruit__tab1 {
+        border-top-left-radius: 10px;
+        border-right: none;
+
+        &.is-active {
+            background: $main-color;
+            width: 58.5%;
+            color: $text-ff-color;
+            border: none;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            padding: 34px 0 19px;
+            line-height: 1.7;
+        }
+    }
+
+    .c-recruit__tab2 {
+        border-top-right-radius: 20px;
+        border-left: none;
+
+        &.is-active {
+            background: $text-3c-color;
+            width: 58%;
+            color: $text-ff-color;
+            border: none;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+            padding: 34px 0 19px;
+            line-height: 1.7;
+        }
+    }    
+
+    .c-recruit__tabcontent {
+        background-color: #f2f5f7;
+        padding: 59px 38px 57px;
+        border: 3px solid $main-color;
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            color: $text-ob-color;
+        }
+
+        tr {
+            border-bottom: 1px solid #707070;            
+        }
+
+        th {
+            font-size: 2rem;
+            font-weight: 600;
+            width: 29%;
+            padding-left: 59px;
+            text-align: start;
+            vertical-align: top;
+        }
+
+        td {
+            letter-spacing: 0.5px;
+            width: 71%;
+            line-height: 1.76;
+        }
+    }
+
+    tr.c-recruit__firsttr {
+        border-bottom: 5px solid $main-color;
+    }
+
+    .c-recruit__firstrow {
+        padding-bottom: 18px;
+    }
+
+    .c-recruit__firstth {
+        // padding-top: 4px;
+    }
+
+    td.c-recruit__firsttd {
+        line-height: 0;
+        padding-top: 2px;
+    }
+
+    .c-recruit__othersth {
+        padding-top: 20px;
+        padding-bottom: 17px;
+    }
+
+    .c-recruit__otherstd {
+        padding-top: 15px;
+        padding-bottom: 17px;
+    }
+
+    .c-recruit__tableactions {
+        display: flex;
+        max-width: 742px;
+        margin: 45px auto 0;
+        padding-left: 1px;
+        justify-content: space-between;
+    }
+
+    .c-recruit__student {
+    
+    }
+
+    .c-recruit__tableaction {
+        display: flex;
+        font-size: 2.2rem;
+        width: 47.7%;
+        padding: 16px 33px;
+        background: $main-color;
+        justify-content: space-between;
+        color: $text-ff-color;
+        border-radius: 9px;
+        transition: 0.4s linear;
+        cursor: pointer;
+
+        &:hover {
+            transition: 0.4s linear;
+            opacity: 0.7;
+        }
+    }
+
+    .c-recruit__assignmenticon {
+        width: 11%;
+        margin-left: 2px;
+    }
+
+    .c-recruit__assignmenttext {
+        width: 85%;
+    }
+
+    .c-recruit__tableaction1 {
+        margin-left: 30px;
+        letter-spacing: 0.4px;
+    }
+
+    .c-recruit__nonstudent {
+        background: $active-main-color;
+    }
+
+    .c-recruit__tableaction2 {
+    }
+
+    .c-recruit__tabcontent2 {
+        background-color: $bg-f8-color;
+        padding: 59px 38px 57px;
+        border: 3px solid $text-3c-color;
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            color: $text-ob-color;
+        }
+
+        tr {
+            border-bottom: 1px solid #707070;
+        }
+
+        th {
+            font-size: 2rem;
+            font-weight: 600;
+            width: 29%;
+            padding-left: 59px;
+            text-align: start;
+            vertical-align: top;
+        }
+
+        td {
+            letter-spacing: 0.5px;
+            width: 71%;
+            line-height: 1.76;
+        }
+    }
+
+    tr.c-recruit__firsttr2 {
+        border-bottom: 5px solid $text-3c-color;
+    }
+}
