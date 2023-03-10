@@ -21,7 +21,7 @@
 
     .c-recruit__tabs {
         display: flex;
-        margin-top: 54px;
+        margin-top: 56px;
         align-items: flex-end;
     }
 
@@ -57,7 +57,7 @@
             border: none;
             border-top-left-radius: 10px;
             border-top-right-radius: 10px;
-            padding: 34px 0 19px;
+            padding: 31px 0 19px;
             line-height: 1.7;
         }
     }
@@ -65,6 +65,7 @@
     .c-recruit__tab2 {
         border-top-right-radius: 20px;
         border-left: none;
+        border-bottom: none;
 
         &.is-active {
             background: $text-3c-color;
