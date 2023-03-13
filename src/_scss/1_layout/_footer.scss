@@ -2,5 +2,139 @@
 footer
 ------------------------------------------------------------*/
 .c-footer {
-    
+    color: $main-color;
+    text-align: center;
+    border-top: 1px solid $main-color;
+
+    .c-footer__nav {
+        display: flex;
+        margin-top: 2px;
+        justify-content: space-between;
+        align-items: center;
+        padding: 12px 20px 20px;
+        position: relative;
+        background: $text-ff-color;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .c-footer__logo {}
+
+    .c-footer__logotitle {
+        position: absolute;
+        font-size: 1.2rem;
+        display: none;
+        left: 49px;
+        color: $text-3c-color;
+        top: 30px;
+        font-weight: 400;
+    }
+
+    .c-gnav {
+        margin: 7px auto 0;
+        flex: 1 1 auto;
+        max-width: 721px;
+
+        ul {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        li {
+            display: inline-block;
+        }
+    }
+
+    .c-header__firstitem {
+        margin-left: 96px;
+    }
+
+    .c-header__seconditem {
+        margin-left: -7px;
+        transform: translate(15px, 2px);
+    }
+
+    .c-header__thirditem {
+        margin-left: 20px;
+        transform: translateX(5px);
+    }
+
+    .c-header__fourthitem {
+        transform: translate(8px, 2px);
+    }
+
+    .c-header__fifthitem {
+        transform: translateX(10px);
+    }
+
+    .c-footer__logo {
+        padding-top: 14px;
+        padding-bottom: 6px;
+    }
+
+    .c-footer__gnavitem {
+    }
+
+    .c-footer__gnavitem:hover {
+        cursor: pointer;
+    }
+
+    .is-active {
+        a {
+            border-bottom: 2px solid $main-color;
+            padding-bottom: 6px;
+        }
+    }
+
+    .c-footer__assignment {
+        margin-top: 4px;
+        background-color: $main-color;
+        border-radius: 9px;
+        font-size: 1.8rem;
+        width: 185px;
+        text-align: center;
+        height: 50px;
+        color: $text-ff-color;
+        margin-left: 15px;
+
+        img {
+            width: 20px;
+            height: 20px;
+            position: relative;
+            top: 31.4%;
+            left: -5px;
+        }
+
+        span {
+            display: inline-block;
+            padding-top: 12px;
+            letter-spacing: 2.3px;
+            margin-left: -2px;
+        }
+    }
+
+    .c-footer__externalsite {
+        border-top: 1px solid #efefef;
+    }
+
+    .c-footer__link {
+        margin-top: 9px;
+        max-width: 370px;
+        display: block;
+        font-size: 1.4rem;
+        text-decoration: underline;
+        margin-left: auto;
+        color: $text-ao-color;
+        letter-spacing: 0.3px;
+        margin-bottom: 15px;
+    }
+
+    .c-footer__copyright {
+        background-color: $main-color;
+        color: $text-ff-color;
+        padding: 13px 21px;
+        font-size: 1.4rem;
+        text-align: center;
+        letter-spacing: 0.3px;
+    }
 }

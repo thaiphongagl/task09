@@ -1,9 +1,11 @@
-<section class="c-intaview" id="#intaview">
-    <h2 class="c-title34 c-intaview__heading">先輩社員からのメッセージ</h2>
-    <p class="c-title16 c-intaview__subheading">
-        未経験で入社した多くのメンバーが<br class="is-sp">活躍しています。<br>
-        各部門で活躍する現役メンバーたちの<br class="is-sp">「リアルな声」をお届けします。
-    </p>
+<section class="c-intaview page-section" id="#intaview">
+    <div class="c-intaview__header">
+        <h2 class="c-title34 c-intaview__heading">先輩社員からのメッセージ</h2>
+        <p class="c-title16 c-intaview__subheading">
+            未経験で入社した多くのメンバーが<br class="is-sp">活躍しています。<br>
+            各部門で活躍する現役メンバーたちの<br class="is-sp">「リアルな声」をお届けします。
+        </p>
+    </div>
 
     <div class="c-intaview__cards">
         <% if (typeof intaviews !='undefined' ) { %>
@@ -130,51 +132,57 @@
         </div>
     </div>
 
-    <div class="c-intaview__modal is-close">
-        <div class="c-intaview__modalmain">
-            <h4 class="c-intaview__modaltitle">いつも明るく元気に作業。朝も一番に出勤してます！</h4>
+    <div class="c-intaview__modal">
+        <% if (typeof intaviews !='undefined' ) { %>
+            <% intaviews.forEach(intaview=> { %>
+                <div class="c-intaview__modalmain">
+                    <h4 class="c-intaview__modaltitle">
+                        <%= intaview.interviewMsg%>
+                    </h4>
 
-            <div class="c-intaview__modalcontent">
-                <div class="c-intaview__modalcard">
-                    <div class="c-intaview__modalcardimage">
-                        <picture>
-                            <source srcset="./assets/img/" media="(max-width: 767px)">
-                            <img class="c-intaview__modalcardimagesrc" src="./assets/img/interview-modal1.jpg" alt="">
-                        </picture>
+                    <div class="c-intaview__modalcontent">
+                        <div class="c-intaview__modalcard">
+                            <div class="c-intaview__modalcardimage">
+                                <picture>
+                                    <source srcset="./assets/img/" media="(max-width: 767px)">
+                                    <img class="c-intaview__modalcardimagesrc" src="<%= intaview.interviewImgModal%>"
+                                        alt="">
+                                </picture>
+                            </div>
+                            <div class="c-intaview__modalcardname">
+                                <h4 class="c-intaview__modalname">
+                                    <%= intaview.interviewName%>
+                                </h4>
+                                <p class="c-intaview__modalposition">
+                                    <%= intaview.interviewDes%>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="c-intaview__modalqa">
+                            <dl class="c-intaview__modallist">
+                                <% if (intaview.interviewContent) { %>
+                                    <% intaview.interviewContent.forEach(item=> { %>
+                                        <dt class="c-intaview__modalq">
+                                            <%- item.interviewq %>
+                                        </dt>
+                                        <dd class="c-intaview__modala">
+                                            <%- item.interviewa %>
+                                        </dd>
+                                        <% }) %>
+                                            <% } %>
+                            </dl>
+                        </div>
                     </div>
-                    <div class="c-intaview__modalcardname">
-                        <h4 class="c-intaview__modalname">安川　聖 (30)</h4>
-                        <p class="c-intaview__modalposition">入社2年目・外構担当職人</p>
+
+                    <div class="c-btn c-intaview__modalclose">
+                        <div class="c-btn__icon c-intaview__modalicon">
+                            <img class="c-intaview__modaliconsrc c-btn__iconsrc" src="./assets/img/close.svg" alt="">
+                        </div>
+                        <span class="c-btn__text c-intaview__modaltext">閉じる</span>
                     </div>
                 </div>
-
-                <div class="c-intaview__modalqa">
-                    <dl class="c-intaview__modallist">
-                        <dt class="c-intaview__modalq">Q. 仕事内容について教えてください</dt>
-                        <dd class="c-intaview__modala">
-                            外構工事を担当しています。建物を新しく建てる際やお庭のリフォームを検討されてる方をはじめ、カーポート、ウッドデッキ、ブロック塀、門扉、アプローチ&nbsp;&nbsp;&nbsp;&nbsp;シャッター、フェンス、テラスなど、大小様々な工事を行っています。
-                        </dd>
-
-                        <dt class="c-intaview__modalq">Q. 入社の決め手について教えてください</dt>
-                        <dd class="c-intaview__modala">もともとは営業や飲食業、アパレル関係の仕事をしていましたが、何か手に職をつけたいと思い、ENTEXに応募しました。</dd>
-
-                        <dt class="c-intaview__modalq">Q. 仕事でやりがいを感じるときはどんな時ですか？</dt>
-                        <dd class="c-intaview__modala">入社2年目ということもあり、作業中などはあまり余裕を感じることはありませんが、現場の着工前と完成後を見るとやりがいを感じます。<br>また、完成後に自分が携わった現場を通りかかり、そこに住むひとたちが何気ない生活を送っている姿を見るのもやりがいを感じます。私たちの仕事は、世の中に残っていく仕事です。</dd>
-
-                        <dt class="c-intaview__modalq">Q. 入社を希望される方に向けてメッセージをお願いします</dt>
-                        <dd class="c-intaview__modala">
-                            はっきり言って肉体労働では重いものを運びますし、夏は暑く、冬は寒いです。仕事自体は難しいですが、体力が無くても、不器用でも、信念をもって取り組めばこの仕事は務まると思います。そんな信念のあるひとを私たちはお待ちしています。
-                        </dd>
-                    </dl>
-                </div>
-            </div>
-
-            <div class="c-btn c-intaview__modalclose">
-                <div class="c-btn__icon c-intaview__modalicon">
-                    <img class="c-intaview__modaliconsrc c-btn__iconsrc" src="./assets/img/close.svg" alt="">
-                </div>
-                <span class="c-btn__text c-intaview__modaltext">閉じる</span>
-            </div>
-        </div>
+                <% }) %>
+                    <% } %>
     </div>
 </section>

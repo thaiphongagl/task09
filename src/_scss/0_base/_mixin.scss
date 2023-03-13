@@ -167,3 +167,27 @@
         display: inline-block;
     }
 }
+
+.is-pctdcell {
+    display: table-cell;
+
+    @include tab {
+        display: none;
+    }
+
+    @include sp {
+        display: none;
+    }
+}
+
+.istabnsptbcell {
+    display: none;
+
+    @include tab {
+        display: table-cell;
+    }
+
+    @include sp {
+        display: table-cell;
+    }
+}

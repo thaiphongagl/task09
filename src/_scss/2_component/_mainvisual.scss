@@ -4,6 +4,11 @@
     min-height: 768px;
     height: 87vh;
 
+    @include tab {
+        margin-top: -4px;
+        height: 90vh;
+    }
+
     .c-mainvisual__slider {
         width: 100%;
         height: 100%;
@@ -22,6 +27,10 @@
     .c-mainvisual__slide1 {
         background-image: url("../../assets/img/mainvisual1.jpg");
 
+        @include tab {
+            background-image: url("../../assets/img/mainvisual1-tab.jpg");
+        }
+
         @include sp {
             background-image: url("../../assets/img/mainvisual1-sp.jpg");
         }
@@ -31,6 +40,10 @@
         background-image: url("../../assets/img/mainvisual2.jpg");
         background-position: center top;
 
+        @include tab {
+            background-image: url("../../assets/img/mainvisual2-tab.jpg");
+        }
+
         @include sp {
             background-image: url("../../assets/img/mainvisual2-sp.jpg");
         }
@@ -39,7 +52,11 @@
     .c-mainvisual__slide3 {
         background-image: url("../../assets/img/mainvisual3.jpg");
         background-position: left;
-        
+
+        @include tab {
+            background-image: url("../../assets/img/mainvisual3-tab.jpg");
+        }
+
         @include sp {
             background-image: url("../../assets/img/mainvisual3-sp.jpg");
         }
@@ -68,6 +85,12 @@
             transition: all 3s cubic-bezier(0.48, 0.41, 0.61, 0.73);
             transform: scale(1.2);
         }
+
+        @include tab {
+            img {
+                height: 788px;
+            }
+        }
     }
 
     .slick-active {
@@ -90,6 +113,10 @@
         position: absolute;
         left: 0;
         top: 28%;
+
+        @include tab {
+            top: 39.2%;
+        }
     }
 
     .c-mainvisual__heading {
@@ -101,6 +128,13 @@
         width: 100%;
         margin: 0 auto;
         letter-spacing: 2.7px;
+
+        @include tab {
+            font-size: 4rem;
+            line-height: 1.4;
+            max-width: 686px;
+            letter-spacing: 1.8px;
+        }
     }
 
     .c-mainvisual__block {
@@ -112,7 +146,9 @@
 
     .c-mainvisual__heading1 {}
 
-    .c-mainvisual__heading2 {}
+    .c-mainvisual__heading2 {
+        
+    }
 
     .c-mainvisual__heading3 {}
 

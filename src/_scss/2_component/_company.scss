@@ -1,5 +1,59 @@
 .c-company {
+    max-width: 960px;
+    margin: 0 auto;
+    padding-bottom: 61px;
+  
     .c-company__heading {
         text-align: center;
+        padding-top: 28px;
+        letter-spacing: 3.4px;
+    }
+
+    .c-company__about {
+        padding-top: 49px;
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            border: 1px solid #cbcbcb;
+        }
+
+        tr {
+            border-bottom: 1px solid #cbcbcb;
+        }
+
+        th {
+            font-size: 1.6rem;
+            font-weight: 400;
+            background: #f7f7f7;
+            width: 30%;
+            text-align: start;
+            padding-left: 18px;
+            vertical-align: top;
+            padding-top: 20px;
+        }
+
+        td {
+            border: 1px solid #cbcbcb;
+            font-size: 1.6rem;
+            font-weight: 400;
+            width: 71%;
+            line-height: 1.76;
+            padding-top: 15px;
+            padding-left: 19px;
+            padding-bottom: 11px;
+
+            ul {
+                line-height: 1.83;
+            }
+        }
+    }
+
+    .c-company__abouttrsp {
+
+    }
+
+    .c-company__abouttrsp:last-child {
+        border-bottom: none;
     }
 }

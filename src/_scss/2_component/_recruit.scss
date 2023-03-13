@@ -140,7 +140,7 @@
     .c-recruit__tableactions {
         display: flex;
         max-width: 742px;
-        margin: 45px auto 0;
+        margin: 46px auto 0;
         padding-left: 1px;
         justify-content: space-between;
     }
@@ -221,5 +221,9 @@
 
     tr.c-recruit__firsttr2 {
         border-bottom: 5px solid $text-3c-color;
+    }
+
+    .c-recruit__boxcontent {
+        display: none;
     }
 }

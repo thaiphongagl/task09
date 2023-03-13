@@ -217,31 +217,88 @@
         "serviceImg": "./assets/img/service4.jpg"
       }
     ]
-  }, 
+  },
   "intaviews": [
     {
       "interviewImg": "./assets/img/interview1.jpg",
       "interviewMsg": "いつも明るく元気に作業。朝も一番に出勤してます！",
-      "interviewName":"安川　聖 (30)",
+      "interviewName": "安川　聖 (30)",
       "interviewNameTab": "鈴木太郎",
       "interviewDes": "入社2年目・外構担当職人　",
-      "interviewDesTab": "入社3年目・外構担当"
+      "interviewDesTab": "入社3年目・外構担当",
+      "interviewImgModal": "./assets/img/interview-modal1.jpg",
+      "interviewContent": [
+        {
+          "interviewq": "Q. 仕事内容について教えてください",
+          "interviewa": "外構工事を担当しています。建物を新しく建てる際やお庭のリフォームを検討されてる方をはじめ、カーポート、ウッドデッキ、ブロック塀、門扉、アプローチ&nbsp;&nbsp;&nbsp;&nbsp;シャッター、フェンス、テラスなど、大小様々な工事を行っています。"
+        },
+        {
+          "interviewq": "Q. 入社の決め手について教えてください",
+          "interviewa": "もともとは営業や飲食業、アパレル関係の仕事をしていましたが、何か手に職をつけたいと思い、ENTEXに応募しました。"
+        },
+        {
+          "interviewq": "Q. 仕事でやりがいを感じるときはどんな時ですか？",
+          "interviewa": "入社2年目ということもあり、作業中などはあまり余裕を感じることはありませんが、現場の着工前と完成後を見るとやりがいを感じます。<br>また、完成後に自分が携わった現場を通りかかり、そこに住むひとたちが何気ない生活を送っている姿を見るのもやりがいを感じます。私たちの仕事は、世の中に残っていく仕事です。"
+        },
+        {
+          "interviewq": "Q. 入社を希望される方に向けてメッセージをお願いします",
+          "interviewa": "はっきり言って肉体労働では重いものを運びますし、夏は暑く、冬は寒いです。仕事自体は難しいですが、体力が無くても、不器用でも、信念をもって取り組めばこの仕事は務まると思います。そんな信念のあるひとを私たちはお待ちしています。"
+        }
+      ]
     },
     {
       "interviewImg": "./assets/img/interview2.jpg",
       "interviewMsg": "職長として土木・外構工事の現場管理をしながら作業指示",
-      "interviewName":"福元　和稔 (45)",
+      "interviewName": "福元　和稔 (45)",
       "interviewNameTab": "池田純一",
       "interviewDes": "入社3年目・土木、外構担当職長",
-      "interviewDesTab": "入社5年目・外構担当"
+      "interviewDesTab": "入社5年目・外構担当",
+      "interviewImgModal": "./assets/img/interview-modal2.jpg",
+      "interviewContent": [
+        {
+          "interviewq": "Q. 仕事内容について教えてください",
+          "interviewa": "外構工事を担当しています。建物を新しく建てる際やお庭のリフォームを検討されてる方をはじめ、カーポート、ウッドデッキ、ブロック塀、門扉、アプローチ　シャッター、フェンス、テラスなど、大小様々な工事を行っています。"
+        },
+        {
+          "interviewq": "Q. 入社の決め手について教えてください",
+          "interviewa": "ENTEXなら、自分の技術を発揮できると思ったからです"
+        },
+        {
+          "interviewq": "Q. 仕事でやりがいを感じるときはどんな時ですか？",
+          "interviewa": "ENTEXなら、自分の技術を発揮できると思ったからです"
+        },
+        {
+          "interviewq": "Q. 入社を希望される方に向けてメッセージをお願いします",
+          "interviewa": "たくさんの仲間と協力し合い、完成させていく楽しい職場だと思います。"
+        }
+      ]
     },
     {
       "interviewImg": "./assets/img/interview3.jpg",
       "interviewMsg": "高校卒業後に入社し、関西で妻と出会い結婚。外構部長へ",
-      "interviewName":"工藤　智成 (41)",
+      "interviewName": "工藤　智成 (41)",
       "interviewNameTab": "鈴木太郎",
       "interviewDes": "入社23年目・外構部長",
-      "interviewDesTab": "入社3年目・外構担当"
+      "interviewDesTab": "入社3年目・外構担当",
+      "interviewImgModal": "./assets/img/interview-modal3.jpg",
+      "interviewContent": [
+        {
+          "interviewq": "Q. 仕事内容について教えてください",
+          "interviewa": "外構工事と造園を担当しています。家の外周り、ブロック工事、フェンス工事、カーポート、ゲート取付工事、門柱、タイル工事、電気取付工事、ガレージコンクリート仕上げ、石張り工事、インターロッキング工事など様々な案件を手掛けています。"
+        },
+        {
+          "interviewq": "Q. 入社の決め手について教えてください",
+          "interviewa": "自分は大分県の田舎で育ったため、地元以外のところで就職したくて求人情報を見ていたら、EXTEX（旧：遠藤ブロック）社の求人票が目に留まりました。 <br>他社と比べて給与等も好待遇だったため、入社を決めました。 <br>入社した以上は一生懸命に仕事を覚えていこうと思いながら仕事をしていたら、あっという間に21年が経っていました。"
+        },
+        {
+          "interviewq": "Q. 仕事でやりがいを感じるときはどんな時ですか？",
+          "interviewa": "「想像していた以上に綺麗に仕上がっています」などお客様から直接お礼を言われた時や、自分の手掛けた物件が、カタログや各メーカーのサイトなどに掲載された時にやりがいを感じます。"
+        },
+        {
+          "interviewq": "Q. 入社を希望される方に向けてメッセージをお願いします",
+          "interviewa": "　・一生懸命やれば、知恵が出る <br>　・いい加減だと言い訳ばかり<br> 　・中途半端だと愚痴が出る <br>入社を希望される方は、この言葉通りに一生懸命がんばってください。"
+        }
+      ]
     }
   ]
 }
